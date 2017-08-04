@@ -1,6 +1,6 @@
 ## is-media-playing
 
-determine if an html mediaelement is currently playing
+determine if an HTML MediaElement is currently playing
 
 There is not a specific attribute that will reveal whether a MediaElement is currently playing.
 
@@ -10,7 +10,7 @@ However, you can deduce this from the state of the other attributes. If all of t
 * `ended` is false
 * `readyState` doesn't indicate media stopped due to errors
 
-then the element is currently playing.
+then the MediaElement is currently playing.
 
 based on this great stackoverflow answer:
 
