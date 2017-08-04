@@ -1,4 +1,4 @@
-## is-media-playing
+## 🎧 is-media-playing
 
 determine if an HTML MediaElement is currently playing
 
