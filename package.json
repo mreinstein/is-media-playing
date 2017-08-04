@@ -1,0 +1,23 @@
+{
+  "name": "is-media-playing",
+  "version": "1.0.0",
+  "description": "determine if an html mediaelement is currently playing",
+  "main": "index.js",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreinstein/is-media-playing.git"
+  },
+  "author": "Mike Reinstein",
+  "license": "MIT",
+  "keywords": [
+    "mediaelement",
+    "playing",
+    "isplaying",
+    "audio",
+    "video"
+  ],
+  "bugs": {
+    "url": "https://github.com/mreinstein/is-media-playing/issues"
+  },
+  "homepage": "https://github.com/mreinstein/is-media-playing#readme"
+}
