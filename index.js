@@ -12,5 +12,5 @@
   then the MediaElement is currently playing.
 */
 module.exports = function isMediaPlaying(media) {
-  return media.currentTime > 0 && !media.paused && !media.ended && media.readyState > 2
+  return media && media.currentTime > 0 && !media.paused && !media.ended && media.readyState > 2
 }
