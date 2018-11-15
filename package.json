@@ -2,8 +2,16 @@
   "name": "is-media-playing",
   "version": "1.0.1",
   "description": "determine if an HTML MediaElement is currently playing",
-  "main": "index.js",
-   "repository": {
+  "main": "dist/is-media-playing.cjs.js",
+  "module": "dist/is-media-playing.esm.js",
+  "scripts": {
+    "build": "npm-run-all -p build:*",
+    "build:cjs": "rollup index.js --file dist/is-media-playing.cjs.js --format cjs",
+    "build:esm": "rollup index.js --file dist/is-media-playing.esm.js --format esm",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/mreinstein/is-media-playing.git"
   },
@@ -20,5 +28,9 @@
   "bugs": {
     "url": "https://github.com/mreinstein/is-media-playing/issues"
   },
-  "homepage": "https://github.com/mreinstein/is-media-playing#readme"
+  "homepage": "https://github.com/mreinstein/is-media-playing#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "rollup": "^0.67.1"
+  }
 }

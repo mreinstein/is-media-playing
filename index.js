@@ -1,5 +1,3 @@
-'use strict'
-
 /*
   There is not a specific attribute that will reveal whether a MediaElement is currently playing.
 
@@ -11,6 +9,6 @@
 
   then the MediaElement is currently playing.
 */
-module.exports = function isMediaPlaying(media) {
+export default function isMediaPlaying(media) {
   return media && media.currentTime > 0 && !media.paused && !media.ended && media.readyState > 2
 }
