@@ -17,20 +17,12 @@ based on this great stackoverflow answer:
 https://stackoverflow.com/questions/6877403/how-to-tell-if-a-video-element-is-currently-playing/6877530#6877530
 
 
-## including
-
-```javascript
-import isPlaying from 'is-media-playing'  // modern es modules approach
-
-// *OR*
-
-const isPlaying = require('is-media-playing') // commonjs (node) approach
-```
-
-
 ### usage
 
 ```javascript
+import isPlaying from 'is-media-playing'
+
+
 const a = new Audio('/audio/elevator.mp3')  // this could also be a video element
 a.play()
 
