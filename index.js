@@ -9,6 +9,6 @@
 
   then the MediaElement is currently playing.
 */
-export default function isMediaPlaying(media) {
+export default function isMediaPlaying (media) {
   return media && media.currentTime > 0 && !media.paused && !media.ended && media.readyState > 2
 }
