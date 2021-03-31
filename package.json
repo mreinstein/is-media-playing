@@ -1,6 +1,6 @@
 {
   "name": "is-media-playing",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "determine if an HTML MediaElement is currently playing",
   "main": "index.js",
   "type": "module",
